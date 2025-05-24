@@ -127,7 +127,6 @@ BOOL CCalcDlg::OnInitDialog()
 	// 设置新的窗口样式
 	SetWindowLong(this->m_hWnd, GWL_STYLE, lStyle);
 
-
 	// 初始化白色背景画刷
 	m_brushWhite.CreateSolidBrush(RGB(255, 255, 255));
 
